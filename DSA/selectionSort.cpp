@@ -3,7 +3,7 @@ using namespace std;
 
 void swapFunc(int *arr, int first, int second){
     int temp = arr[first];
-    arr[first] = second;
+    arr[first] = arr[second];
     arr[second] = temp;
 }
 
